@@ -1,0 +1,34 @@
+.wrapper {
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+}
+
+.jar_list {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 128px;
+}
+
+// .jar {
+//   display: flex;
+//   gap: 16px;
+//   flex-direction: column;
+//   align-items: center;
+
+//   .jar_image {
+//     width: 168px;
+//     height: 256px;
+//     background-image: url('../../assets/images/jar.png');
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//   }
+// }

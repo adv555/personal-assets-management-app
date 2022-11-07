@@ -1,0 +1,42 @@
+.jar {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+
+  .jar_image {
+    position: relative;
+    width: 168px;
+    height: 256px;
+    background-image: url('../../assets/images/jar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .progress {
+      z-index: -1;
+      border-radius: 100px/37px;
+      position: absolute;
+      left: 2px;
+      bottom: 5px;
+      width: calc(100% - 4px);
+      height: 62px;
+      max-height: 226px;
+      background-color: rgb(200 238 68);
+    }
+
+    .amount {
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      font-weight: 600;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .navigation {
+    display: flex;
+    gap: 16px;
+  }
+}

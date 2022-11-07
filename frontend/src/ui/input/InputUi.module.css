@@ -1,0 +1,28 @@
+.input {
+  width: 100%;
+  background-color: white;
+  padding: 7px 10px;
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.input:hover {
+  border: 2px solid #27ae60;
+}
+
+.input:focus {
+  border: 2px solid #27ae60;
+}
+
+.inputError {
+  width: 100%;
+  background-color: white;
+  padding: 7px 10px;
+  border: 2px solid #cf4b4b;
+  border-radius: 14px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/*# sourceMappingURL=InputUi.module.css.map */

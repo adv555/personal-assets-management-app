@@ -1,0 +1,16 @@
+export enum ExchangeCurrenciesEnum {
+  USD = 'USD',
+  EUR = 'EUR',
+  PLN = 'PLN',
+  GBP = 'GBP',
+  JPY = 'JPY',
+  ILS = 'ILS',
+  KRW = 'KRW',
+  CHF = 'CHF',
+  MKD = 'MKD',
+  MDL = 'MDL',
+  MXN = 'MXN',
+  RON = 'RON',
+  SEK = 'SEK',
+  TRY = 'TRY',
+}

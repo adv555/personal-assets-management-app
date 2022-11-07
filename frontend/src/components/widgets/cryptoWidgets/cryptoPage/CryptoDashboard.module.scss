@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.presentPage {
+  background-image: url('../../../../assets/images/photoForCrypto.jpg') cover;
+}
+
+.icon {
+  animation: arrow ease-in-out 1.2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+  }
+  50% {
+    transform: translateY(20px);
+    /* transform: translate3d(0vh, 0vh, 15vh); */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
